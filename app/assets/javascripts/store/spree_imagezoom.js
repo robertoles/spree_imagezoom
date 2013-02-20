@@ -21,7 +21,7 @@
  */
 (function ($) {
     //GLOBAL VARIABLES
-    var isIE6 = ($.browser.msie && $.browser.version < 7);
+    var isIE6 = false; // ie6 no longer supported by jquery, this is a hack until i figure out the work around
     var body = $(document.body);
     var window = $(window);
     var jqzoompluging_disabled = false; //disabilita globalmente il plugin
